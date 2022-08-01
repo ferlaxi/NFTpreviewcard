@@ -10,4 +10,4 @@
 ## Author
 
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [NFT Preview Card](https://your-live-site-url.com) 🌐
+- Live Site URL: [NFT Preview Card](https://ferlaxi.github.io/NFTpreviewcard/) 🌐
