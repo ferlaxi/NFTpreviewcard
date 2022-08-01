@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 590px;
+    position: relative;
+    border-radius: 17px;
+    z-index: 2;
+}
+
+.container2{
+    position: absolute;
+    background-color:hsla(219, 53%, 7%, 0.164);
+    width: 385px;
+    height: 600px;
+    margin-top: 60px;
+    border-radius: 55px;
+    z-index: 1;
+}
+
+.container3{
+    position: absolute;
+    background-color: hsla(216, 57%, 12%, 0.527);
+    width: 440px;
+    height: 680px;
+    margin-top: 50px;
+    border-radius: 60px;
+}
+
+.mainimage{
+    width: 310px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 194, 194, 0);
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.eye{
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.title{
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 22px;
+}
+
+.title a{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.description{
+    position: absolute;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-top: 395px;
+    width: 300px;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+#eth{
+    position: absolute;
+    width: 10px;
+    margin-top: 465px;
+    margin-left: 22px;
+}
+
+#clock{
+    position: absolute;
+    width: 15px;
+    margin-top: 466px;
+    margin-left: 235px;
+}
+
+.ammount{
+    position: absolute;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    margin-top: 463px;
+    margin-left: 40px;
+}
+
+.time{
+    position: absolute;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin-top: 464px;
+    margin-left: 258px;
+}
+
+.line{
+    border-bottom: solid 1px hsl(215, 32%, 36%);
+    margin-top: 510px;
+    width: 305px;
+    margin-left: 22px;
+}
+
+.user{
+    position: absolute;
+    margin-bottom: 100px;
+}
+.profilepic{
+    position: absolute;
+    width: 55px;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+.creation{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-top: 22px;
+    margin-left: 80px;
+}
+.creation a{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.link{
+    height: 50px;
+    margin-bottom: 400px;
+}
+
+/* Hover */
+
+.user .creation a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.title a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.view:hover{
+    background-color: hsla(178, 100%, 50%, 0.336);
+}
+
+.view .eye:hover{
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 375px){
+    .container{
+        width: 240px;
+        height: 405px;
+    }
+
+    .mainimage{
+        width: 200px;
+    }
+
+    .container2{
+        width: 280px;
+        height: 405px;
+    }
+
+    .container3{
+        width: 300px;
+        height: 500px;
+    }
+
+    .title{
+        margin-top: 230px;
+    }
+    
+    .title a{
+        font-size: 15px;
+    }
+
+    .description{
+        margin-top: 260px;
+        width: 215px;
+        font-size: 12px;
+    }
+    
+    #eth{
+        margin-top: 310px;
+    }
+
+    .ammount{
+        margin-top: 310px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    #clock{
+        width: 15px;
+        margin-top: 310px;
+        margin-left: 145px;
+    }
+
+    .time{
+        font-size: 12px;
+        margin-top: 310px;
+        margin-left: 165px;
+    }
+
+    .line{
+        margin-top: 345px;
+        width: 200px;
+    }
+
+    .profilepic{
+        width: 38px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .creation{
+        margin-top: 15px;
+        margin-left: 55px;
+        font-size: 13px;
+    }
+
+    .view{
+        width: 200px;
+        height: 200px;
+    }
+
+    .eye{
+        width: 35px;
+    }
+}
